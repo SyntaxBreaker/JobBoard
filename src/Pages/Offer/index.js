@@ -55,10 +55,6 @@ function Offer() {
             <p>{offer.email.toUpperCase()}</p>
           </div>
         )}
-        <div className="date">
-          <p>Time published:</p>
-          <p>2 days ago</p>
-        </div>
       </div>
     </main>
   );
