@@ -5,11 +5,13 @@ header {
   display: flex;
   flex-direction: row;
   background-color: $primaryColor;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
 
   .logo {
+    display: none;
+
     a {
       text-decoration: none;
     }
@@ -55,14 +57,12 @@ header {
   }
 }
 
-@media (min-width: 600px) {
-}
+@media (min-width: 400px) {
+  header {
+    justify-content: space-between;
 
-@media (min-width: 900px) {
-}
-
-@media (min-width: 1200px) {
-}
-
-@media (min-width: 1500px) {
+    .logo {
+      display: initial;
+    }
+  }
 }
