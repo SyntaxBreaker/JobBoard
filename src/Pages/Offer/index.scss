@@ -1,0 +1,146 @@
+.offer {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: white;
+  border: 1px solid #e1e5f2;
+  padding: 20px 10px;
+  word-wrap: break-word;
+
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+
+    .basic_information {
+      h2 {
+        margin-top: 10px;
+        color: #7d8597;
+      }
+    }
+
+    .more__information {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .more__information div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+
+  .description {
+    margin: 2rem 0;
+
+    h2,
+    p {
+      text-align: left;
+      line-height: 150%;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+  }
+
+  .technologies {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .technology {
+      margin: 5px;
+      width: 25%;
+      padding: 4px;
+      border-radius: 20px;
+      background-color: #00296b;
+      color: white;
+    }
+  }
+
+  .email {
+    margin: 3rem 0 1rem 0;
+
+    p {
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
+
+  .date {
+    margin: 3rem 0 1rem 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .offer {
+    .technologies {
+      .technology {
+        margin: 0 -10px;
+        width: 15%;
+        padding: 4px;
+        border-radius: 20px;
+        background-color: #00296b;
+        color: white;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .offer {
+    .technologies {
+      .technology {
+        margin: 0 -10px;
+        width: 15%;
+        padding: 4px;
+        border-radius: 20px;
+        background-color: #00296b;
+        color: white;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .offer {
+    .technologies {
+      .technology {
+        margin: 0 -10px;
+        width: 15%;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: #00296b;
+        color: white;
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .offer {
+    .technologies {
+      .technology {
+        margin: 0 -10px;
+        width: 15%;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: #00296b;
+        color: white;
+      }
+    }
+  }
+}

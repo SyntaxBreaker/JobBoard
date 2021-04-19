@@ -1,0 +1,149 @@
+main {
+  .homepage__container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    div {
+      margin: 5px 0;
+    }
+
+    input {
+      padding: 5px;
+      border: none;
+      border: 2px solid #7d857d;
+      border-radius: 5px;
+    }
+
+    input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      transform: translateY(25%);
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #00296b;
+    }
+
+    .type p {
+      text-align: center;
+    }
+
+    label {
+      margin: 0 5px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  main {
+    .homepage__container {
+      width: 100%;
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+      margin: 0 auto;
+    }
+
+    .filters {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    .homepage__container {
+      width: 85%;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0 auto;
+    }
+
+    .filters {
+      align-items: initial;
+      justify-content: initial;
+      padding: 40px 0;
+
+      .location,
+      .salary {
+        form {
+          label {
+            margin-left: 0.5%;
+          }
+
+          input {
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    .homepage__container {
+      width: 75%;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0 auto;
+    }
+
+    .filters {
+      align-items: initial;
+      justify-content: initial;
+      padding: 40px 0;
+
+      .location,
+      .salary {
+        form {
+          label {
+            margin-left: 0.5%;
+          }
+
+          input {
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  main {
+    .homepage__container {
+      width: 75%;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0 auto;
+    }
+
+    .filters {
+      align-items: initial;
+      justify-content: initial;
+      padding: 40px 0;
+
+      .location,
+      .salary {
+        form {
+          label {
+            margin-left: 0.5%;
+          }
+
+          input {
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

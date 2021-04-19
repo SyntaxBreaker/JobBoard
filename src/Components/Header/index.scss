@@ -1,0 +1,68 @@
+$primaryColor: #00296b;
+$buttonColor: #ffc300;
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: $primaryColor;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .logo {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    color: white;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      flex-direction: row;
+    }
+
+    li {
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+
+  button {
+    border: 0;
+    background-color: $buttonColor;
+    padding: 10px 20px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1500px) {
+}

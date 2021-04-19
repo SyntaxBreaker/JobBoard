@@ -1,0 +1,48 @@
+$primaryColor: #00509d;
+
+.searchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  background-color: $primaryColor;
+
+  h1 {
+    margin: 8px 0;
+    font-size: 18px;
+    color: white;
+  }
+
+  input {
+    margin: 8px 0;
+    width: 80%;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 900px) {
+  .searchBar input {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .searchBar input {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .searchBar input {
+    width: 30%;
+  }
+}

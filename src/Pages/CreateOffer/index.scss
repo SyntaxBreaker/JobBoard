@@ -1,0 +1,202 @@
+.creation__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  margin-top: 30px;
+
+  input[type="submit"] {
+    display: block;
+    margin: 15px auto;
+    width: 40%;
+    background-color: #ffc300;
+    border: none;
+  }
+
+  form {
+    color: black;
+    border: 5px solid #00296b;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+  }
+
+  .remote {
+    input {
+      margin-left: 10px;
+    }
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border: 2px solid #00296b;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    transform: translateY(25%);
+  }
+
+  input,
+  textarea {
+    margin: 0 auto;
+    width: 85%;
+    border: none;
+    padding: 5px;
+    border: 2px solid #7d857d;
+    border-radius: 5px;
+  }
+
+  label {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .basicInformation,
+  .location,
+  .keywords,
+  .techStack,
+  .contact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .jobType,
+  .salary {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .basicInformation,
+  .keywords,
+  .techStack,
+  .contact,
+  .location {
+    label {
+      text-align: left;
+      margin-left: 8%;
+    }
+  }
+
+  .jobType label {
+    margin-right: 15px;
+  }
+
+  .salary label {
+    margin-right: 20px;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  color: #00296b;
+}
+
+@media (min-width: 700px) {
+  .basicInformation,
+  .keywords,
+  .techStack,
+  .contact {
+    label {
+      margin-left: 7%;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .creation__form {
+    margin-top: 30px;
+
+    form {
+      color: black;
+      margin: 0 auto;
+      width: 75%;
+      background-color: white;
+      padding: 10px 0;
+    }
+
+    input,
+    textarea {
+      width: 75%;
+    }
+
+    .basicInformation,
+    .location,
+    .keywords,
+    .techStack,
+    .contact {
+      label {
+        margin-left: 12.5%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .creation__form {
+    margin-top: 30px;
+
+    form {
+      color: black;
+      margin: 0 auto;
+      width: 75%;
+      background-color: white;
+      padding: 10px 0;
+    }
+
+    input,
+    textarea {
+      width: 75%;
+    }
+
+    .basicInformation,
+    .location,
+    .keywords,
+    .techStack,
+    .contact {
+      label {
+        margin-left: 12.5%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .creation__form {
+    margin-top: 30px;
+
+    form {
+      color: black;
+      margin: 0 auto;
+      width: 60%;
+      background-color: white;
+      padding: 10px 0;
+    }
+
+    input,
+    textarea {
+      width: 75%;
+    }
+
+    .basicInformation,
+    .location,
+    .keywords,
+    .techStack,
+    .contact {
+      label {
+        margin-left: 12.5%;
+      }
+    }
+  }
+}
