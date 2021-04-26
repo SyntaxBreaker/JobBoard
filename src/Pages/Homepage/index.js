@@ -184,12 +184,12 @@ function Homepage() {
             <form>
               <label htmlFor="salary">Salary:</label>
               <select name="salary" onChange={(event) => onChange(event)}>
-                <option value="default">Choose a salary</option>
-                <option value="5000">Max: 5000</option>
-                <option value="10000">Max: 10000</option>
-                <option value="15000">Max: 15000</option>
-                <option value="20000">Max: 20000</option>
-                <option value="25000">Max: 25000</option>
+                <option value="default">No maximum salary</option>
+                <option value="5000">Maximum: 5000</option>
+                <option value="10000">Maximum: 10000</option>
+                <option value="15000">Maximum: 15000</option>
+                <option value="20000">Maximum: 20000</option>
+                <option value="25000">Maximum: 25000</option>
               </select>
             </form>
           </div>

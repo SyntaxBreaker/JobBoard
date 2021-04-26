@@ -9,7 +9,7 @@ function SearchBar({ setFilters }) {
   return (
     <div className="searchBar">
       <h1>Search for your dream job</h1>
-      <input type="text" name="filters" onChange={(event) => onChange(event)} />
+      <input type="text" name="filters" placeholder="e.g. Python" onChange={(event) => onChange(event)} />
     </div>
   );
 }
