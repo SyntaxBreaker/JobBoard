@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Helmet } from 'react-helmet'
 import "./index.scss";
 
 function Offer() {
@@ -16,6 +17,9 @@ function Offer() {
 
   return (
     <main>
+      <Helmet>
+        <title>{offer.title}</title>
+      </Helmet>
       <div className="offer">
         <div className="information">
           <div className="basic_information">

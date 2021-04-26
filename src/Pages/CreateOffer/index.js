@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { UserContext } from "../../providers/UserProvider";
+import { Helmet } from 'react-helmet';
 import "./index.scss";
 
 function CreateOffer() {
@@ -79,6 +80,9 @@ function CreateOffer() {
 
   return (
     <main>
+      <Helmet>
+        <title>Create Offer</title>
+      </Helmet>
       {!user ? (
         <>
           <h1 className="info">Please log in, if u want post a job.</h1>

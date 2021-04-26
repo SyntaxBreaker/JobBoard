@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SearchBar from "../../Components/SearchBar";
 import JobList from "../../Components/JobList";
+import { Helmet } from 'react-helmet';
 import "./index.scss";
 
 function Homepage() {
@@ -148,6 +149,9 @@ function Homepage() {
 
   return (
     <main>
+      <Helmet>
+        <title>JobBoard</title>
+      </Helmet>
       <SearchBar setFilters={setFilters} />
       <div className="homepage__container">
         <JobList
