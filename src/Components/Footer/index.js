@@ -4,7 +4,7 @@ import "./index.scss";
 function Footer() {
   return (
     <footer>
-      <h2>©2021 MetaneruS</h2>
+      <h2>©2021 xMetaneRx</h2>
     </footer>
   );
 }
