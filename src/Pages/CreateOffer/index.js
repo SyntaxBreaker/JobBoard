@@ -85,11 +85,10 @@ function CreateOffer() {
       </Helmet>
       {!user ? (
         <>
-          <h1 className="info">Please log in, if u want post a job.</h1>
+          <h1 className="info">Please log in if you want to post a job.</h1>
         </>
       ) : (
-        <div className="creation__form">
-          <form onSubmit={onSubmit}>
+          <form onSubmit={onSubmit} className="form">
             <div className="basicInformation">
               <label htmlFor="companyName">Company name:</label>
               <input
@@ -219,7 +218,6 @@ function CreateOffer() {
             </div>
             <input type="submit" value="Submit" />
           </form>
-        </div>
       )}
     </main>
   );

@@ -26,7 +26,7 @@ function Header() {
         {user ? (
           <button onClick={signOut}>Log out</button>
         ) : (
-          <button onClick={signInWithGoogle}>Log in with google</button>
+          <button onClick={signInWithGoogle}>Log in with Google</button>
         )}
       </div>
     </header>

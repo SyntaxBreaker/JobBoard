@@ -13,7 +13,7 @@ function JobList({
     <div className="results">
       {!renderFilteredOffers ? (
         <>
-          <p>{amountOfOffers} job offers found!</p>
+          <p>{amountOfOffers} job offers!</p>
           {Object.entries(offers).map(([key, offer]) => (
             <div className="job" key={key}>
               <Link to={`/offer/${key}`}>
@@ -36,7 +36,7 @@ function JobList({
       ) : (
         renderFilteredOffers && (
           <>
-            <p>{amountOfFilteredOffers} job offers found!</p>
+            <p>{amountOfFilteredOffers} job offers!</p>
             {Object.entries(filteredOffers).map(([key, offer]) => (
               <div className="job" key={key}>
                 <Link to={`/offer/${key}`}>
