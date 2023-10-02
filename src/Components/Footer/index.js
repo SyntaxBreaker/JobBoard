@@ -4,7 +4,7 @@ import "./index.scss";
 function Footer() {
   return (
     <footer>
-      <h2>©2022 xMetaneRx</h2>
+      <h2>©2022 SyntaxBreaker</h2>
     </footer>
   );
 }
